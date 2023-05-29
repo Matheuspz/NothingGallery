@@ -7,8 +7,7 @@ body {
     margin: 0;
     height: auto;
     background-image: url(/images/fundo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 300vh;
 }
 
 main {
@@ -34,7 +33,7 @@ header {
     padding-bottom: 1vh;
     white-space: nowrap;
     border-bottom: 0.5vh solid #ffffff;
-
+    z-index: 2;
 }
 
 button {
@@ -89,4 +88,20 @@ button {
         height: 7vh;
         width: 100%;
         border-top: 1vh solid #000000;
+    }
+
+.tbquadros {
+    font-family: Voga;
+    color: white; 
+    font-size: 4em;   
+}
+
+.grunge {
+    text-align: center;
+    border: 0.5vh solid #ffffff;;
+}
+    .h1grunge {
+        font-family: Voga;
+        color: white; 
+        font-size: 3em;
     }
